@@ -4,11 +4,8 @@
 *::before,
 *::after {
   box-sizing: border-box;
-  font-family: 'Source Sans Pro', sans-serif;
-  height: 100%;
-  width: 100%;
 }
-/* 
+
 html,
 body,
 #root,
@@ -16,7 +13,8 @@ body,
 .content {
   height: 100%;
   width: 100%;
-} */
+  font-family: 'Source Sans Pro', sans-serif;
+}
 
 .app {
   display: flex;
