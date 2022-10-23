@@ -1,11 +1,11 @@
 import React from 'react';
-import { Box, useTheme } from '@mui/material';
-import { DataGrid, GridToolbar } from '@mui/x-data-grid';
+import { Box, Typography, useTheme } from '@mui/material';
+import { DataGrid } from '@mui/x-data-grid';
 import { tokens } from '../../theme';
-import { mockDataContacts } from '../../data/mockData';
+import { mockDataInvoices } from '../../data/mockData';
 import Header from '../../components/Header';
 
-export default function Contacts() {
+export default function Invoices() {
   const theme = useTheme();
   const colors = tokens(theme.palette.mode);
 
@@ -13,24 +13,12 @@ export default function Contacts() {
     {
       field: 'id',
       headerName: 'ID',
-      flex: 0.5,
-    },
-    {
-      field: 'registrarId',
-      headerName: 'Registrar ID',
     },
     {
       field: 'name',
       headerName: 'Name',
       flex: 1,
       cellClassName: 'name-column--cell',
-    },
-    {
-      field: 'age',
-      headerName: 'Age',
-      type: 'number',
-      headerAlign: 'left',
-      align: 'left',
     },
     {
       field: 'phone',
@@ -43,27 +31,25 @@ export default function Contacts() {
       flex: 1,
     },
     {
-      field: 'address',
-      headerName: 'Address',
-      flex: 1,
+      field: 'cost',
+      headerName: 'Amount',
+      flex: 0.5,
+      renderCell: (params) => (
+        <Typography color={colors.greenAccent[500]}>
+          ${params.row.cost}
+        </Typography>
+      ),
     },
     {
-      field: 'city',
-      headerName: 'City',
-      flex: 1,
-    },
-    {
-      field: 'zipCode',
-      headerName: 'ZipCode',
+      field: 'date',
+      headerName: 'Date',
+      flex: 0.5,
     },
   ];
 
   return (
     <Box m={'20px'}>
-      <Header
-        title={'CONTACTS'}
-        subTitle={'List of contacts for future reference'}
-      />
+      <Header title={'INVOICES'} subTitle={'List of Invoice Balances'} />
       <Box
         m="40px 0 0 0"
         height="75vh"
@@ -93,11 +79,7 @@ export default function Contacts() {
           },
         }}
       >
-        <DataGrid
-          rows={mockDataContacts}
-          columns={columns}
-          components={{ Toolbar: GridToolbar }}
-        />
+        <DataGrid rows={mockDataInvoices} columns={columns} />
       </Box>
     </Box>
   );

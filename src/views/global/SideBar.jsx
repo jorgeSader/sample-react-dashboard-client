@@ -157,7 +157,7 @@ export default function SideBar() {
             />
             <Item
               title="Invoices Balanances"
-              to="/invoice"
+              to="/invoices"
               icon={<ReceiptOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}

@@ -6,7 +6,7 @@ import SideBar from './views/global/SideBar';
 import Dashboard from './views/dashboard';
 import Team from './views/team';
 import Contacts from './views/contacts';
-// import Invoices from './views/invoices';
+import Invoices from './views/invoices';
 // import Bar from './views/bar';
 // import Form from './views/form';
 // import Line from './views/line';
@@ -30,7 +30,7 @@ function App() {
               <Route path="/" element={<Dashboard />} />
               <Route path="/team" element={<Team />} />
               <Route path="/contacts" element={<Contacts />} />
-              {/* <Route path="/invoices" element={<Invoices />} /> */}
+              <Route path="/invoices" element={<Invoices />} />
               {/* <Route path="/bar" element={<Bar />} /> */}
               {/* <Route path="/form" element={<Form />} /> */}
               {/* <Route path="/line" element={<Line />} /> */}
