@@ -118,7 +118,7 @@ export default function SideBar() {
                   Jorge Sader
                 </Typography>
                 <Typography variant="h5" color={colors.greenAccent[500]}>
-                  VP Fancy Admin
+                  Full Stack Developer
                 </Typography>
               </Box>
             </Box>
