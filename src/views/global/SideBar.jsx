@@ -137,7 +137,7 @@ export default function SideBar() {
             <Typography
               variant="h6"
               color={colors.grey[100]}
-              sx={{ m: '15px 0 5px, 20px' }}
+              sx={{ m: '15px 0 5px 20px' }}
             >
               Data
             </Typography>
@@ -166,7 +166,7 @@ export default function SideBar() {
             <Typography
               variant="h6"
               color={colors.grey[100]}
-              sx={{ m: '15px 0 5px, 20px' }}
+              sx={{ margin: '15px 0 5px 20px' }}
             >
               Pages
             </Typography>
@@ -195,7 +195,7 @@ export default function SideBar() {
             <Typography
               variant="h6"
               color={colors.grey[100]}
-              sx={{ m: '15px 0 5px, 20px' }}
+              sx={{ m: '15px 0 5px 20px' }}
             >
               Charts
             </Typography>
