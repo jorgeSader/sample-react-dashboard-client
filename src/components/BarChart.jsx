@@ -4,7 +4,7 @@ import { useTheme } from '@mui/material';
 import { ResponsiveBar } from '@nivo/bar';
 import { mockBarData as data } from '../data/mockData';
 
-export default function BarChart() {
+export default function BarChart({ isDashboard = false }) {
   const theme = useTheme();
   const colors = tokens(theme.palette.mode);
 
@@ -36,6 +36,11 @@ export default function BarChart() {
         legends: {
           text: {
             fill: colors.grey[100],
+          },
+        },
+        tooltip: {
+          basic: {
+            color: colors.primary[500],
           },
         },
       }}
@@ -90,7 +95,7 @@ export default function BarChart() {
         tickSize: 5,
         tickPadding: 5,
         tickRotation: 0,
-        legend: 'country',
+        legend: isDashboard ? undefined : 'country',
         legendPosition: 'middle',
         legendOffset: 32,
       }}
@@ -98,7 +103,7 @@ export default function BarChart() {
         tickSize: 5,
         tickPadding: 5,
         tickRotation: 0,
-        legend: 'food',
+        legend: isDashboard ? undefined : 'food',
         legendPosition: 'middle',
         legendOffset: -40,
       }}
