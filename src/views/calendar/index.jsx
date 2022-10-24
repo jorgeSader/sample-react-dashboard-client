@@ -6,7 +6,6 @@ import interactionPlugin from '@fullcalendar/interaction';
 import listPlugin from '@fullcalendar/list';
 import {
   Box,
-  colors,
   List,
   ListItem,
   ListItemText,
@@ -60,12 +59,12 @@ export default function Calendar() {
         >
           <Typography variant="h5">Events</Typography>
           <List>
-            {currentEvents.map((event) => {
+            {currentEvents.map((event) => (
               <ListItem
                 key={event.id}
                 sx={{
                   backgroundColor: colors.greenAccent[500],
-                  margin: '10pxx 0',
+                  margin: '10px 0',
                   borderRadius: '2px',
                 }}
               >
@@ -73,20 +72,55 @@ export default function Calendar() {
                   primary={event.title}
                   secondary={
                     <Typography>
-                      {
-                        (formatDate(event.start),
-                        {
-                          year: 'numeric',
-                          month: 'short',
-                          day: 'numeric',
-                        })
-                      }
+                      {formatDate(event.start, {
+                        year: 'numeric',
+                        month: 'short',
+                        day: 'numeric',
+                      })}
                     </Typography>
                   }
                 />
-              </ListItem>;
-            })}
+              </ListItem>
+            ))}
           </List>
+        </Box>
+
+        {/* CALENDAR */}
+        <Box flex="1 1 100%" ml="15PX">
+          <FullCalendar
+            height="75vh"
+            plugins={[
+              dayGridPlugin,
+              timeGridPlugin,
+              interactionPlugin,
+              listPlugin,
+            ]}
+            headerToolbar={{
+              left: 'prev,next today',
+              center: 'title',
+              right: 'dayGridMonth,timeGridWeek,timeGridDay,listMonth',
+            }}
+            initialView="dayGridMonth"
+            editable={true}
+            selectable={true}
+            selectMirror={true}
+            dayMaxEvents={true}
+            select={handleDateClick}
+            eventClick={handleEventClick}
+            eventsSet={(events) => setCurrentEvents(events)}
+            initialEvents={[
+              {
+                id: '1',
+                title: 'Sample all-day Event',
+                date: '2022-10-24',
+              },
+              {
+                id: '2',
+                title: 'Halloween',
+                date: '2022-10-31',
+              },
+            ]}
+          />
         </Box>
       </Box>
     </Box>
