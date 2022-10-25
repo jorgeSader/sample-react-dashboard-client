@@ -12,11 +12,11 @@ export default function LineChart({ isDashboard = false }) {
       data={data}
       theme={{
         axis: {
-          domain: {
-            line: {
-              stroke: colors.grey[100],
-            },
-          },
+          // domain: {
+          //   line: {
+          //     stroke: colors.grey[100],
+          //   },
+          // },
           legend: {
             text: {
               fill: colors.grey[100],
@@ -77,6 +77,7 @@ export default function LineChart({ isDashboard = false }) {
         legendPosition: 'middle',
       }}
       enableGridX={false}
+      enableGridY={!isDashboard}
       pointSize={10}
       pointColor={{ theme: 'background' }}
       pointBorderWidth={2}
