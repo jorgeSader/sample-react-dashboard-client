@@ -3,7 +3,7 @@ import { useTheme } from '@mui/material';
 import { ResponsiveLine } from '@nivo/line';
 import { mockLineData as data } from '../data/mockData';
 
-export default function LineChart(isDashboard = false) {
+export default function LineChart({ isDashboard = false }) {
   const theme = useTheme();
   const colors = tokens(theme.palette.mode);
 
