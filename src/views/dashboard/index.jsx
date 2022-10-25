@@ -14,7 +14,6 @@ import BarChart from '../../components/BarChart';
 import GeographyChart from '../../components/GeographyChart';
 import StatBox from '../../components/StatBox';
 import ProgressCircle from '../../components/ProgressCircle';
-import { color } from '@mui/system';
 
 export default function Dashboard() {
   const theme = useTheme();
