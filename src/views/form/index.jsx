@@ -13,7 +13,7 @@ const initialValues = {
   address2: '',
 };
 
-const phoneRegEx = /^[+]*[(]{0,1}[0-9]{1,4}[)]{0,1}[-\s\./0-9]*$/;
+const phoneRegEx = /^[+]*[(]{0,1}[0-9]{1,4}[)]{0,1}[-\s./0-9]*$/;
 
 const userSchema = yup.object().shape({
   firstName: yup.string().required('Required'),
