@@ -1,4 +1,4 @@
-# Sample React Dashboard
+# Sample React Dashboard - Client
 
 This front end project was build to mimic new job situation in which I'd be expected to work with a couple of new libraries and practice my recently acquired typescript skills while maintaining code quality and creating production ready applications.
 
@@ -8,6 +8,8 @@ It was bootstrapped with [Create React App](https://github.com/facebook/create-r
 ## Preview
 
 You can preview and interact with this dashboard by visiting 👉 [https://sample-react-dashboard-jsader.netlify.app/](https://sample-react-dashboard-jsader.netlify.app/). 👈
+
+/home/User/Videos/Screencasts/Screencast from 11-23-2022 11:09:17 AM.webm
 
 Please note that while all data is mocked and unrelated, it would be fairly simple to incorporate the required requests and business logic to fetch the relevant data from databases and/or servers.
 
