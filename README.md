@@ -4,16 +4,24 @@ This front end project was build to mimic new job situation in which I'd be expe
 
 It was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), and deployed at [netlify](https://netlify.com). 
 
+Please note that while all data is mocked and unrelated, it would be fairly simple to incorporate the required requests and business logic to fetch the relevant data from databases and/or servers.
 
 ## Preview
 
+### Live 
+
 You can preview and interact with this dashboard by visiting 👉 [https://sample-react-dashboard-jsader.netlify.app/](https://sample-react-dashboard-jsader.netlify.app/). 👈
 
-/home/User/Videos/Screencasts/Screencast from 11-23-2022 11:09:17 AM.webm
+## Videos & Screenshots
 
-Please note that while all data is mocked and unrelated, it would be fairly simple to incorporate the required requests and business logic to fetch the relevant data from databases and/or servers.
+while I highly recommend that you [visit the live site](https://sample-react-dashboard-jsader.netlify.app/) and test the dashboard yourself, I've included clips & pics below to give you a quick glimps at its current capabilities.
 
-If you prefer to build your own please continue reading for detailed instructions.
+### Sidebar menu
+https://user-images.githubusercontent.com/98265862/203604809-411e54d2-9af1-4532-9a8f-9b41f278f28f.mp4
+
+### Interactive Tables
+https://user-images.githubusercontent.com/98265862/203602503-bf47201a-471f-423a-91d4-1cb12c9d3044.mp4
+
 
 
 ## Acknowledgements
@@ -46,11 +54,16 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-## Available Scripts
+
+## Build it yourself
+
+If you prefer to build your own please continue reading for detailed instructions.
+
+### Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+#### `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
@@ -58,12 +71,12 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
+#### `npm test`
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+#### `npm run build`
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
@@ -73,7 +86,7 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+#### `npm run eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
@@ -88,27 +101,3 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
