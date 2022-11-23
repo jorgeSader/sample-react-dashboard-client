@@ -1,6 +1,11 @@
-# Getting Started with Create React App
+# Sample React Dashboard
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Preview
+
+This app has been deployed at [netlify](https://netlify.com) and can ve previewed at [https://sample-react-dashboard-jsader.netlify.app/](https://sample-react-dashboard-jsader.netlify.app/).
+
+If you prefer to build your own please continue reading for detailed instructions.
 
 ## Available Scripts
 
