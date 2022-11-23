@@ -1,11 +1,48 @@
 # Sample React Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This front end project was build to mimic new job situation in which I'd be expected to work with a couple of new libraries and practice my recently acquired typescript skills while maintaining code quality and creating production ready applications.
+
+It was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), and deployed at [netlify](https://netlify.com). 
+
+
 ## Preview
 
-This app has been deployed at [netlify](https://netlify.com) and can ve previewed at [https://sample-react-dashboard-jsader.netlify.app/](https://sample-react-dashboard-jsader.netlify.app/).
+You can preview and interact with this dashboard by visiting 👉 [https://sample-react-dashboard-jsader.netlify.app/](https://sample-react-dashboard-jsader.netlify.app/). 👈
+
+Please note that while all data is mocked and unrelated, it would be fairly simple to incorporate the required requests and business logic to fetch the relevant data from databases and/or servers.
 
 If you prefer to build your own please continue reading for detailed instructions.
+
+
+## Acknowledgements
+
+- [BrainStation FullStack Web Development Bootcamp](https://brainstation.io/course/online/remote-web-development-bootcamp)
+- [Typescript - 2023 Edition](https://www.udemy.com/share/101sTi3@ew8qvznBnZmHHaQlKnoHKrzfwjM3fXxyJKicG6pmOObyriksqeFC-pin5LkMMtwJ/)
+- [React - The Complete Guide 2023](https://www.udemy.com/share/101Way3@Fi9SXqDysV0mIQ_0DbYivqjCAyHhC1bu6UDlqXK2TWKvfyWTqY4nEqfkhOe6D5vz/)
+- [JavaScript, The Complete Guide 2023](https://www.udemy.com/share/102aa23@Vdb8o8ZeYANLAZdroaLsLu__onT2LeVBs9jwNVLLr_9vvjB40AcJUgE7ZQEKNyME/)
+- [CSS - The Complete Guide 2023](https://www.udemy.com/share/101rBy3@l5-BBZGRxRK8k7AANiK9VwWSlsHtxnB2-G--5zGlfbJPWCALA06jr2tct93Ns-ul/)
+- [Ed Roh's YoutTube Channel](https://www.youtube.com/@EdRohDev)
+- [Readme.so](https://readme.so/editor)
+
+
+## Stack:
+
+[![javascript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)](https://www.javascript.com/) [![react](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)](https://reactjs.org/) [![typescript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/).
+
+
+## License:
+
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+
+Copyright © 2023 Jorge Sader
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sub license, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
 ## Available Scripts
 
